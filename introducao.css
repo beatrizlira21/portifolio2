@@ -1,0 +1,34 @@
+.borboleta, .competencias{
+  position: absolute;
+}
+
+.borboleta{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 2000px;
+  align-items: center;
+  position: absolute;
+}
+
+.competencias{
+  margin-left: 50%;
+  margin-top: 30%;
+}
+
+.competencias h1{
+  font-size: 3.5rem;
+  background-color: #FFF4EE;
+  border: 1px dashed #5F351D;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+#WD{
+  margin-left: 20%;
+}
+
+
+
+

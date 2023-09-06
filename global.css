@@ -1,0 +1,34 @@
+/*@font-face funciona para utilizar uma fonte de arquivo externo. No font-family adiciono o nome que quero atribuir a fonte e no src coloco o "local", pra que entenda que essa fonte está em um diretório local e a url com o caminho do arquivo*/
+@font-face{
+  font-family: BarlowSemiCondensed-Medium;
+  src: local(BarlowSemiCondensed-Medium), url("D:\Pasta minha\Estudos\Origamid\exercicios\projetoPessoal\fonts");
+}
+
+body{
+  font-family: BarlowSemiCondensed-Medium, sans-serif;
+  margin: 0px;
+  color: #4E250E;
+  position: relative;
+}
+
+h1, h2, h3, p{
+  margin: 0px;
+}
+
+p{
+  font-size: 1.2rem;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+
+
